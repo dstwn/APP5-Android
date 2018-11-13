@@ -1,7 +1,10 @@
-package com.infinite5.app;
+package com.infinite5.app.Activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.infinite5.app.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
