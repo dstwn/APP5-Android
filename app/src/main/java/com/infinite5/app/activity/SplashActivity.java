@@ -1,4 +1,4 @@
-package com.infinite5.app.Activity;
+package com.infinite5.app.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
