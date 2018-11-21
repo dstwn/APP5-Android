@@ -4,44 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffffff"
-    tools:context=".activity.MainActivity">
+    tools:context=".activity.ListPanti">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        app:elevation="10dp"
-        android:elevation="10dp"
-        >
+        android:theme="@style/AppTheme.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#ffffffff"
-            app:elevation="10dp"
-            app:popupTheme="@style/AppTheme.PopupOverlay">
-            <androidx.appcompat.widget.AppCompatTextView
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="30dp"
-                android:textStyle="bold"
-                android:textColor="@android:color/black"
-                android:text="Panti"/>
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="Qu"
-                android:textSize="30dp"
-                android:textColor="@android:color/black"
+                android:id="@+id/JuduleMas"
+                android:text="Judule Mas"
                 android:layout_gravity="center"
                 />
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_list_panti" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

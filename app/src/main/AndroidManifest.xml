@@ -18,6 +18,14 @@
         </activity>
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.LoginActivity" />
+        <activity
+            android:name=".activity.city.KabupatenBantul"
+            android:label="@string/title_activity_kabupaten_bantul"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ListPanti"
+            android:label="@string/title_activity_list_panti"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
