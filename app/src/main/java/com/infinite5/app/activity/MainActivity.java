@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         mJudul.add("Kabupaten Bantul");
         mTag.add("Bantul");
-        mGambar.add("https://i.redd.it/tpsnoz5bzo501.jpg");
+        mGambar.add("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSeSWeKYWPvCkPzlhuH_TvKEL1SnU3q405KYMYRr6RSPNZWDrf5");
 
         mJudul.add("Kabupaten Sleman");
         mTag.add("Sleman");
