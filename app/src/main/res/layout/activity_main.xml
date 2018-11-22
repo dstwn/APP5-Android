@@ -44,4 +44,25 @@
 
     <include layout="@layout/content_main" />
 
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_gravity="bottom|end"
+        android:elevation="6dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/colorAccent"
+        app:cornerRadius="32dp"
+        app:icon="@drawable/ic_profile"
+        app:iconPadding="12dp"
+        app:iconTint="@android:color/white"
+
+        />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

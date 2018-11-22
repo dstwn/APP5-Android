@@ -74,6 +74,5 @@ public class MainActivity extends AppCompatActivity {
         menu.setLayoutManager(layoutManager);
 
 
-
     }
 }
